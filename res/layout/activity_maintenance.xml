@@ -16,7 +16,7 @@
         android:layout_height="wrap_content" >
 
         <Button
-            android:id="@+id/btn_mente"
+            android:id="@+id/btn_back"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -24,7 +24,7 @@
             android:text="戻る" />
 
         <Button
-            android:id="@+id/btn_touroku"
+            android:id="@+id/btn_delete"
             android:layout_width="30dp"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
