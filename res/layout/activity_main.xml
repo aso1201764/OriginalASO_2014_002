@@ -16,6 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:layout_marginLeft="40dp"
+        android:clickable="false"
         android:text="今日の一言"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="42sp"
@@ -27,15 +28,18 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
         android:layout_marginLeft="80dp"
+        android:clickable="false"
         android:text="ひとことを登録"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
         android:id="@+id/box_hitokoto"
         android:layout_width="match_parent"
-        android:layout_height="99dp"
-        android:layout_weight="0.12"
-        android:ems="10" >
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="160dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:maxLines="9" >
 
         <requestFocus />
     </EditText>

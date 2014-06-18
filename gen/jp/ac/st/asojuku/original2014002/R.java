@@ -22,20 +22,22 @@ public final class R {
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
+        public static final int taishi=0x7f020001;
     }
     public static final class id {
-        public static final int LinearLayout1=0x7f080001;
-        public static final int action_settings=0x7f08000b;
-        public static final int box_hitokoto=0x7f080004;
-        public static final int btn_back=0x7f080009;
-        public static final int btn_check=0x7f080007;
-        public static final int btn_delete=0x7f08000a;
-        public static final int btn_mente=0x7f080005;
-        public static final int btn_touroku=0x7f080006;
-        public static final int lst_Hitokoto=0x7f080008;
-        public static final int textView=0x7f080002;
-        public static final int textView2=0x7f080003;
-        public static final int txvHITOKOTO=0x7f080000;
+        public static final int LinearLayout1=0x7f080002;
+        public static final int action_settings=0x7f08000c;
+        public static final int box_hitokoto=0x7f080005;
+        public static final int btn_back=0x7f08000a;
+        public static final int btn_check=0x7f080008;
+        public static final int btn_delete=0x7f08000b;
+        public static final int btn_mente=0x7f080006;
+        public static final int btn_touroku=0x7f080007;
+        public static final int imageView1=0x7f080000;
+        public static final int lst_Hitokoto=0x7f080009;
+        public static final int textView=0x7f080003;
+        public static final int textView2=0x7f080004;
+        public static final int txvHITOKOTO=0x7f080001;
     }
     public static final class layout {
         public static final int activity_hitokoto=0x7f030000;

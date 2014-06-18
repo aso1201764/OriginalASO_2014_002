@@ -26,7 +26,7 @@ public class HitokotoActivity extends Activity {
 		String strHitokoto = intent.getStringExtra("hitokoto");
 
 		// 取得したStringを、TxtViewにセット
-		TextView txvHITOKOTO = (TextView)findViewById(R.id.box_hitokoto);
+		TextView txvHITOKOTO = (TextView)findViewById(R.id.txvHITOKOTO);
 		txvHITOKOTO.setText(strHitokoto);
 	}
 
